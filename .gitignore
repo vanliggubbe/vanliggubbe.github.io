@@ -1,0 +1,11 @@
+# Bundler (local gem installs)
+.vendor/
+vendor/bundle/
+vendor/cache/
+vendor/ruby/
+.bundle/
+
+# Jekyll build output + cache
+_site/
+.jekyll-cache/
+.jekyll-metadata
