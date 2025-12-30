@@ -12,6 +12,34 @@
     <![endif]-->
     {% include head-custom.html %}
   </head>
+  <!--script type="module">
+    import "https://cdn.jsdelivr.net/npm/@myriaddreamin/typst-all-in-one.ts@0.7.0-rc2/dist/esm/index.js";
+
+    for (const code of document.querySelectorAll('pre > code.language-typst, pre > code.lang-typst')) {
+      const src = code.textContent;
+
+      const svg = await globalThis.$typst.svg({ mainContent: src });
+
+      const box = document.createElement("div");
+      box.innerHTML = svg;
+
+      code.closest("pre").replaceWith(box.firstElementChild);
+    }
+  </script-->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['\\(', '\\)'], ['$', '$']],
+        displayMath: [['\\[', '\\]'], ['$$', '$$']]
+      }
+    };
+  </script>
+  <script>
+    window.MathJax = { tex: { tags: 'all' } };
+  </script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
   <body>
     <div class="wrapper">
       <header>
@@ -22,7 +50,12 @@
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <nav>
+            <a href="{{ "/publications.html" | relative_url }}">List of publications</a><br>
+            <a href="{{ "/about.html" | relative_url }}">About me</a><br>
+        </nav>
 
+        <!--
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
@@ -30,6 +63,7 @@
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
+        -->
 
         {% if site.show_downloads %}
         <ul class="downloads">
