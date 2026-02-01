@@ -48,7 +48,7 @@ julia> refs = (2u"q", 1u"ħ", 2π * 1u"GHz")
 ```
 Then specify parameters of the qubit: capacitance and Josephson energy. I define latter through the junction critical current,
 since the factor \\(\Phi_0 / (2\pi)\\) is a unit of flux.
-```
+```julia
 julia> C = unitless(200u"fF", refs)
 1.2906403729652256
 
@@ -56,7 +56,7 @@ julia> Ej = unitless(40u"nA", refs)
 19.867340431067024
 ```
 Construct the Hamiltonian in the charge basis, cropped to 21 levels and find it's eigenvalues:
-```
+```julia
 julia> H = SymTridiagonal((-10 : 10) .^ 2 / (2.0 * C), fill(-Ej / 2.0, 20));
 
 julia> E = eigvals(H)
