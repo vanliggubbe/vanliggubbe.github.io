@@ -98,3 +98,5 @@ my favorite choice of units. The library is not yet registered, but it will be
 soon.
 
 **PS** No surprise, this idea is not new. You can also check out [`Dimensionless.jl`](https://github.com/martinkosch/Dimensionless.jl), which does a similar thing.
+
+**PPS** The lib is registered!
