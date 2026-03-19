@@ -2,7 +2,12 @@
 layout: default
 title: Publication list
 ---
+Preprints:
+1. [T.&nbsp;Uusnäkki, M.&nbsp;Rasola, V.&nbsp;Vadimov, P.&nbsp;Singh, A.&nbsp;Darwish, and M.&nbsp;Möttönen, "Autonomous Quantum Heat Engine", arXiv:2603.15355](https://doi.org/10.48550/arXiv.2603.15355)
+1. [M.&nbsp;Xu, V.&nbsp;Vadimov, J.&nbsp;T.&nbsp;Stockburger, and J.&nbsp;Ankerhold, "Simulating Non-Markovian Dynamics in Open Quantum Systems", arXiv:2601.02160](https://doi.org/10.48550/ARXIV.2601.02160)
+1. [M.&nbsp;Xu, V.&nbsp;Vadimov, M.&nbsp;Krug, J.&nbsp;T.&nbsp;Stockburger, and J.&nbsp;Ankerhold, "A Universal Framework for Quantum Dissipation:Minimally Extended State Space and Exact Time-Local Dynamics", arXiv:2307.16790](https://doi.org/10.48550/ARXIV.2307.16790)
 
+Peer-reviewed:
 1. [T. F. Mörstedt, W. S. Teixeira, A. Viitanen, H. Kivijärvi, M.&nbsp;Tiiri, M. Rasola, A. M. Gunyho, S. Kundu, L. Lattier, V.&nbsp;Vadimov, G. Catelani, V.&nbsp;Sevriuk, J. Heinsoo, J. Räbinä, J. Ankerhold, and M.&nbsp;Möttönen, "Rapid on-demand generation of thermal states in superconducting quantum circuits", _Physical Review Research_, vol.&nbsp;7, no. 4, p.&nbsp;L042010, Oct.&nbsp;2025](https://doi.org/10.1103/6bty-836h)
 1. [M. Rasola, V.&nbsp;Vadimov, T. Uusnäkki, and M.&nbsp;Möttönen, "Proposal for an autonomous quantum heat engine", _SciPost&nbsp;Physics_, vol.&nbsp;19, no.&nbsp;4, p.&nbsp;101, Oct.&nbsp;2025](https://scipost.org/10.21468/SciPostPhys.19.4.101)
 1. [V.&nbsp;Vadimov, Y. Sunada, and M.&nbsp;Möttönen, "Dissipation and noise in strongly driven Josephson junctions", _SciPost&nbsp;Physics&nbsp;Core_, vol.&nbsp;8, no.&nbsp;4, p.&nbsp;065, Oct.&nbsp;2025](https://doi.org/10.21468/scipostphyscore.8.4.065)
