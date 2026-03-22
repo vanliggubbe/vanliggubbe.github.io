@@ -40,7 +40,7 @@ Then, this flywheel mode can accumulate the useful work. At the same time, oscil
 <figure>
   <img src="{{'/images/qhe-flywheel.svg' | relative_url}}" style="max-width:100%; height:7cm; display: block; margin: 0 auto;" alt="Flywheel">
   <figcaption style="text-align:center;font-size:0.9em;">
-    Freewheel motion vs. strokes of the cycle.
+    Flywheel motion vs. strokes of the cycle.
   </figcaption>
 </figure>
 
