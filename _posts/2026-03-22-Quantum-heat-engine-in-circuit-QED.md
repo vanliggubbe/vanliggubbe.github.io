@@ -5,7 +5,7 @@ date: 2026-03-22
 tags: [cQED, quantum thermodynamics]
 ---
 
-Recently, we've got published a theoretical paper[^rasola2025] about a quantum heat engine in microwave superconducting circuits. And last week we put experimental work on arXiv[^uusnaekki2026]!
+Recently, we've got published a theoretical paper[^rasola2025] about a quantum heat engine in microwave superconducting circuits. And last week we put an experimental work on arXiv[^uusnaekki2026]!
 
 <figure>
   <img src="{{'/images/qhe-amogus.webp' | relative_url}}" style="max-width:35%; height:auto; display: block; margin: 0 auto;" alt="Amogus">
