@@ -9,3 +9,5 @@ vendor/ruby/
 _site/
 .jekyll-cache/
 .jekyll-metadata
+
+.run.sh
