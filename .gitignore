@@ -10,4 +10,4 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 
-.run.sh
+run.sh
